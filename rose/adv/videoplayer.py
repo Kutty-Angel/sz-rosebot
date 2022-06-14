@@ -1,7 +1,7 @@
 __MODULE__ = "Video Play"
 __HELP__ = """
 
-Rose can play video in your group's voice chat 
+Kutty Angel can play video in your group's voice chat 
 zero lag time with high quality
 
 × /vplay - `[Youtube URL/Search Query/live URL or reply video/audion]` 
@@ -16,7 +16,7 @@ zero lag time with high quality
 × /delgroupplaylist- Delete any saved music in your group's playlist [Requires Admin Rights.]
 
 This is most advance music player in telegram base on private Socure 
-music player repo Devil can play music or video in your group video chat without lag...!
+music player repo Kutty Angel can play music or video in your group video chat without lag...!
 
 
  """

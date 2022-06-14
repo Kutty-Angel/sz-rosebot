@@ -85,7 +85,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 supunmas = """
 **Note:**
-Devil Angel Music Bot works on a single merged 
+Kutty Angel Angel Music Bot works on a single merged 
 commands for Music and Video
 
 **Youtube,Telegram Files & query**:
@@ -97,7 +97,7 @@ commands for Music and Video
 
 📖 **If you like you can use /vplay commands as this method.**
 
-**Rose Database Saved Playlists:**
+**Kutty Angel Database Saved Playlists:**
 
 - /playlist : Check Your Saved Playlist On Servers.
 - /deleteplaylist : Delete any saved music in your playlist
@@ -119,7 +119,7 @@ We was added Lag free Music 🎶
 
 👮‍♀️ **OFFICIAL Assistants**:-
 
-• Assistant :- @DevilAngelAssistant
+• Assistant :- @KuttyAngelAssistant
 
 
 
@@ -127,7 +127,7 @@ We was added Lag free Music 🎶
 **Credits** - 
 
 ˚₊· ͟͟͞͞➳❥🇦𝖙𝖙𝖎𝖙𝖚𝖉𝖊 🇰𝖎𝖓𝖌࿐
-- @Attitude_king_vj
+- @ONLY_DUSKY 
 
 👨‍💻 - Please Don't Spam in Assistant Pm
 we remove assistant monthly in all groups.
@@ -192,9 +192,9 @@ upun = """
 - disadvantage:-
 - Thumbnail not support.
 
-**work is done by** : @Attitude_King_vj
+**work is done by** : @ONLY_DUSKY
 
-Click on the buttons for more information.| [credits](https://t.me/tgcalls_Music_update)
+Click on the buttons for more information.| [credits](https://t.me/ONLY_DUSKY)
 """
 @app.on_callback_query(filters.regex("_vc"))
 async def commands_callbacc(_, CallbackQuery):

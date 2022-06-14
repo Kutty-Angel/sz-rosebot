@@ -32,7 +32,7 @@ from rose.utils.http import get
 @capture_err
 async def repo(_, message):
     users = await get(
-        "https://api.github.com/repos/szsupunma/sz-rose-bot/contributors"
+        "https://api.github.com/repos/Kutty-Angel/sz-rose-bot/contributors"
     )
     list_of_users = ""
     count = 1
@@ -42,7 +42,7 @@ async def repo(_, message):
         )
         count += 1
 
-    text = f"""[Dev](t.me/Attitude_king_vj) | [Group](https://t.me/DevilAngelSupport)
+    text = f"""[Dev](t.me/ONLY_DUSKY) | [Group](https://t.me/DuskyBotZSupport)
 ```----------------
 | Contributors |
 ----------------```

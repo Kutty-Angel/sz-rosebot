@@ -121,8 +121,8 @@ async def start_bot():
     except Exception:
         pass
     try:
-            await app2.join_chat("szteambots")
-            await app2.join_chat("slbotzone")
+            await app2.join_chat("DuskyBotZSupport")
+            await app2.join_chat("DuskyBotZUpdates")
     except UserAlreadyParticipant:
         pass
     await idle()
@@ -141,10 +141,10 @@ start_button = InlineKeyboardMarkup(
         ],
         [
            InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ ", url="https://t.me/DevilAngelSupport"
+                text="sᴜᴘᴘᴏʀᴛ ", url="https://t.me/DuskyBotZSupport"
             ),
             InlineKeyboardButton(
-                text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/DeviLAngeLupdates"
+                text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/DuskyBotZUpdates"
             ),
         ],
         [
@@ -157,7 +157,7 @@ start_button = InlineKeyboardMarkup(
 )
 
 start_text = f"""
-Hello There ! I'm **Devil Angel** [✨](https://telegra.ph/file/fce9d196e2ba4d6c2de3a.jpg)
+Hello There ! I'm **Kutty Angel** [✨](https://telegra.ph/file/4935b94ee534ac94319ad.jpg)
 An  advanced telegram Group management Bot For help 
 You Protect Your Groups & Suit For All Your Needs.
 """
@@ -176,10 +176,10 @@ keyboard = InlineKeyboardMarkup(
 
 basichelp_string = """
 **👥Basic Group Commands**
-✘ Base commands are the basic tools of Devil Angel Bot which help you to manage 
+✘ Base commands are the basic tools of Kutty Angel Bot which help you to manage 
 your group easily and effectivelyYou can choose 
 an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/DevilAngelSupport).
+Also you can ask anything in [Support Group](https://t.me/DuskyBotZSupport).
 
 >> Shorter the Way, Faster you Go! 🏃‍♂️
 """
@@ -189,7 +189,7 @@ funtools_string = """
 
 ✘ Extra tools which are available in bot and tools made for fun are here
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/DevilAngelSupport).
+Also you can ask anything in [Support Group](https://t.me/DuskyBotZSupport).
 
 Click buttons to get help ?
 """
@@ -200,7 +200,7 @@ advtools_string = """
 ✘ Advanced commands will help you to secure your groups 
 from attackers and do many stuff in group from a single bot
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/DevilAngelSupport).
+Also you can ask anything in [Support Group](https://t.me/DuskyBotZSupport).
 
 >> Shorter the Way, Faster you Go! 🏃‍♂️
 """
@@ -234,7 +234,7 @@ started time - `2022 {dater}:{timer} `
                 """
             )
         return await message.reply(
-            "**Heya, @DevilXAngelBot here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
+            "**Heya, @KuttyAngelXBot here :) PM me if you have any questions how to use me!**", reply_markup=keyboard
         )
     if len(message.text.split()) > 1:
         name = (message.text.split(None, 1)[1]).lower()
@@ -347,10 +347,10 @@ keyboar = InlineKeyboardMarkup(
                     ],
                     [
                         InlineKeyboardButton(
-                            text="⚠️ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/DeviLAngeLupdates"
+                            text="⚠️ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/DuskyBotZUpdates"
                         ),
                         InlineKeyboardButton(
-                            text="sᴜᴘᴘᴏʀᴛ ⚠️", url="https://t.me/DevilAngelSupport"
+                            text="sᴜᴘᴘᴏʀᴛ ⚠️", url="https://t.me/DuskyBotZSupport"
                         ),
                     ],
                     [
@@ -363,7 +363,7 @@ keyboar = InlineKeyboardMarkup(
 
 texts = """
 **Welcome to help menu**
-I'm a group management bot with some useful features.
+I'm Kutty Angel group management bot with some useful features.
 You can choose an option below, by clicking a button.
 Also you can ask anything in Support Group.
 """
@@ -412,7 +412,7 @@ async def help_parser(name, keyboard=None):
         """
 **Welcome to help menu**
 
-I'm a group management bot with some useful features.
+I'm Kutty Angel group management bot with some useful features.
 You can choose an option below, by clicking a button.
 Also you can ask anything in Support Group.
 """.format(
@@ -451,7 +451,7 @@ async def help_button(client, query):
     top_text = f"""
 **Welcome to help menu**
 
-I'm a group management bot with some useful features.
+I'm Kutty Angel group management bot with some useful features.
 You can choose an option below, by clicking a button.
 Also you can ask anything in Support Group.
  """
@@ -664,7 +664,7 @@ UTTON_10 = InlineKeyboardMarkup(
 
 TEXT_PART_1 = """
 Here is the help for the **Formatting** 
-DeviLAngel supports a large number of formatting options 
+Kutty Angel supports a large number of formatting options 
 to make your messages more expressive. Take a look 
 by clicking the buttons below!
 """
@@ -675,7 +675,7 @@ BTTON_1 = InlineKeyboardMarkup(
         InlineKeyboardButton('Formatting ', callback_data='for_commands')
         ],
         [
-        InlineKeyboardButton('Bug Report', url="https://t.me/slbotzone")
+        InlineKeyboardButton('Bug Report', url="https://t.me/DuskyBotZUpdates")
         ],
         [InlineKeyboardButton('🔙 Back', callback_data='bot_commands')
         ]]
@@ -818,17 +818,17 @@ async def commands_callbacc(_, CallbackQuery):
     modules_count = len(ALL_MODULES)
 
     TEXT_PART = f"""
-@DeviLxAngeLBot ** is one of the fastest and most feature filled group manager**.   
+@KuttyAngelXBot ** is one of the fastest and most feature filled group manager**.   
  
  - **Latest Update Time** : `2022 {dater}:{timer}`
  - **Modules Loaded **:  `{modules_count}`
  - **Globally banned users.** :  `{gbans}`
-@szrosebot **Mongo database stats**
+@KuttyAngelXBot **Mongo database stats**
  - ** Users ** : `{served_users}`
  - ** chats.** : `{served_chats}`
 
  
- **Why Devil**:
+ **Why Kutty Angel**:
  
 - **Simple**: `Easy usage and compaitble with many bot commands.`
 - **Featured**: `Many features which other group management bots don't have.`
@@ -843,8 +843,8 @@ async def commands_callbacc(_, CallbackQuery):
     await CallbackQuery.message.delete()
 
 TEXT_PART_1 = """
-**Welcome to the DevilAngel Configuration**
-The first thing to do is to add Devil Bot ✨ to your group! 
+**Welcome to the Kutty Angel Configuration**
+The first thing to do is to add Kutty Angel Bot ✨ to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
@@ -857,7 +857,7 @@ To do that, follow this easy steps:
 ▫️ Click Manage Group
 ▫️ Goto Administrators 
 ▫️ Press on Administrator
-▫️ Add @szrosebot as Admin
+▫️ Add @KuttyAngelXBot as Admin
 ▫️ Give full permissions 
 ▫️ Confirm
 """
@@ -866,14 +866,14 @@ TEXT_PART_3 = """
 **Excellent!** Now the Bot is ready to use!
 All commands can be used with / 
 If you're facing any difficulties in setting up me in your group, 
-so don't hesitate to come in @DevilAngelSupport.
+so don't hesitate to come in @DuskyBotZSupport.
 We would love to help you.
 """
 
 
 BUTTON_1 = InlineKeyboardMarkup(
         [[        
-        InlineKeyboardButton('Add Devil to Chat ! 🎉', url='http://t.me/szrosebot?startgroup=new')
+        InlineKeyboardButton('Add Me to Your Group ! 🎉', url='http://t.me/KuttyAngelXBot?startgroup=new')
         ],
         [InlineKeyboardButton('Done ✅', callback_data="next_1")
         ]]
@@ -914,18 +914,18 @@ async def popat(_, CallbackQuery):
 
 
 text = """
-@DevilXAngelBot is one of the fastest and most feature filled group manager.
+@KuttyAngelXBot is one of the fastest and most feature filled group manager.
 
-Rose ✨ is developed and actively maintained by @Attitude_king_vj!
+Kutty Angel ✨ is developed and actively maintained by @ONLY_DUSKY!
 
-Devil has been online since 2021/8/10 and have many [groups and users.](https://t.me/DeviLAngeLupdates)
+Kutty Angel has been online since 2022/7/14 and have many [groups and users.](https://t.me/DuskyBotZUpdates)
 
 **Why Devil:**
 - **Simple**: Easy usage and compaitble with many bot commands.
 - **Featured**: Many features which other group management bots don't have.
 - **Fast**: Pyrogram base bot and use mongo as database.
 
-**Current Version:** `1.0.6` | [Special Credits](https://telegra.ph/Special-Credits-02-02)
+**Current Version:** `1.0.6` | [Special Credits](https://t.me/ONLY_DUSKY)
 """
 @app.on_callback_query(filters.regex("_about"))
 async def commands_callbacc(_, CallbackQuery):
@@ -961,7 +961,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 TEXT_PAT_1 = """
 **Welcome to the Rose Configuration**
-The first thing to do is to add Rose Bot ✨ to your group! 
+The first thing to do is to add Kutty Angel Bot ✨ to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
@@ -974,7 +974,7 @@ To do that, follow this easy steps:
 ▫️ Click Manage Group
 ▫️ Goto Administrators 
 ▫️ Press on Administrator
-▫️ Add @szrosebot as Admin
+▫️ Add @KuttyAngelXBot as Admin
 ▫️ Give full permissions 
 ▫️ Confirm
 """
@@ -983,14 +983,14 @@ TEXT_PART_3 = """
 **Excellent!** Now the Bot is ready to use!
 All commands can be used with / 
 If you're facing any difficulties in setting up me in your group, 
-so don't hesitate to come in @DevilAngelSupport.
+so don't hesitate to come in @DuskyBotZSupport.
 We would love to help you.
 """
 
 
 BUTON_1 = InlineKeyboardMarkup(
         [[        
-        InlineKeyboardButton('Add Devil to Chat ! 🎉', url='http://t.me/szrosebot?startgroup=new')
+        InlineKeyboardButton('Add Me to Your Group ! 🎉', url='http://t.me/KuttyAngelXBot?startgroup=new')
         ],
         [InlineKeyboardButton('Done ✅', callback_data="next_100")
         ]]
@@ -1000,7 +1000,7 @@ BUTON_1 = InlineKeyboardMarkup(
 BUTON_2 = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Done ✅', callback_data="next_200"),
-        ]]
+        
   
 )
 
@@ -1076,7 +1076,7 @@ LOGGER.info("""
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
 └───────────────────────────────────────────────┘ """)
 LOGGER.info(f"Version: stable")
-LOGGER.info(f"Owner: @Attitude_king_vj")
+LOGGER.info(f"Owner: @ONLY_DUSKY")
 
 if __name__ == "__main__":
     uvloop.install()

@@ -15,11 +15,11 @@ logo = """
 **Available Features**
 - 5000+ Fonts Available .
 - 10000+ Background Images.
-- Quick Response. [API Base](https://t.me/SingleDevelopers/618)
-- Never Expire Image Links. [Telegraph](https://telegra.ph/file/760c7393ee86fcba9e00e.jpg)
+- Quick Response. [API Base](https://t.me/DuskyBotZSupport)
+- Never Expire Image Links. [Telegraph](https://telegra.ph/file/4935b94ee534ac94319ad.jpg)
 - Group / Channel & Inbox Supported.
 
-Original work is done by [@MrItzme](https://telegra.ph/Ghostist-Logo-Maker-API-01-30) | [Single Developers </>](https://t.me/SingleDevelopers)
+Original work is done by [@ONLY_DUSKY](https://telegra.ph/file/4935b94ee534ac94319ad.jpg) | [Dusky Support](https://t.me/DuskyBotZSupport)
 """
 ghost = """
 **How to Use Logo Creator Tool**
@@ -27,9 +27,9 @@ ghost = """
 × /slogo `[TEXT]` : New Beautiful trending logo
 
 **Available Features**
-- Ghostist Logo [API](https://telegra.ph/Ghostist-Logo-Maker-API-01-30)
+- Ghostist Logo [API](https://telegra.ph/file/4935b94ee534ac94319ad.jpg)
 
-Original work is done by [@MrItzme](https://telegra.ph/Ghostist-Logo-Maker-API-01-30) | [Single Developers </>](https://t.me/SingleDevelopers)
+Original work is done by [@ONLY_DUSKY](https://telegra.ph/file/4935b94ee534ac94319ad.jpg) | [Dusky Support](https://t.me/DuskyBotZSupport)
 """
 hql = """
 × /logohq `[TEXT]`: Create a HQ logo 
@@ -41,13 +41,13 @@ hql = """
 **Available Features**
 - 5000+ Fonts Available .
 - 10000+ Background Images.
-- Quick Response. [API Base](https://t.me/SingleDevelopers/618)
-- Never Expire Image Links. [Telegraph](https://telegra.ph/file/760c7393ee86fcba9e00e.jpg)
+- Quick Response. [API Base](https://t.me/DuskyBotZSupport)
+- Never Expire Image Links. [Telegraph](https://telegra.ph/file/4935b94ee534ac94319ad.jpg)
 - 4K Logo & Wallpapers.
 - Group / Channel & Inbox Supported.
 
 
-Original work is done by [@MrItzme](https://telegra.ph/Ghostist-Logo-Maker-API-01-30) | [Single Developers </>](https://t.me/SingleDevelopers)
+Original work is done by [@ONLY_DUSKY](https://telegra.ph/file/4935b94ee534ac94319ad.jpg) | [Dusky Support](https://t.me/DuskyBotZSupport)
 """
 hand = """
 
@@ -58,10 +58,10 @@ hand = """
 
 **Available Features**
 - Group / Channel & Inbox Supported.
-- Hand Writing [sinhala & English ](https://t.me/SingleDevelopers/643)
+- Hand Writing [sinhala & English ](https://t.me/DuskyBotZSupport)
 
 
-Original work is done by [@MrItzme](https://telegra.ph/Ghostist-Logo-Maker-API-01-30) | [Single Developers </>](https://t.me/SingleDevelopers)
+Original work is done by [@ONLY_DUSKY](https://telegra.ph/file/4935b94ee534ac94319ad.jpg) | [Dusky Support](https://t.me/DuskyBotZSupport)
 """
 wall = """
 **How to Use Logo Creator Tool**
@@ -72,13 +72,13 @@ wall = """
 **Available Features**
 - 5000+ Fonts Available .
 - 10000+ Background Images.
-- Quick Response. [API Base](https://t.me/SingleDevelopers/618)
-- Never Expire Image Links. [Telegraph](https://telegra.ph/file/760c7393ee86fcba9e00e.jpg)
+- Quick Response. [API Base](https://t.me/DuskyBotZSupport)
+- Never Expire Image Links. [Telegraph](https://telegra.ph/file/4935b94ee534ac94319ad.jpg)
 - 4K Logo & Wallpapers.
 - Group / Channel & Inbox Supported.
 
 
-Original work is done by [@MrItzme](https://telegra.ph/Ghostist-Logo-Maker-API-01-30) | [Single Developers </>](https://t.me/SingleDevelopers)
+Original work is done by [@ONLY_DUSKY](https://telegra.ph/file/4935b94ee534ac94319ad.jpg) | [Dusky Support](https://t.me/DuskyBotZSupport)
 """
 
 @app.on_callback_query(filters.regex("pic"))
@@ -107,9 +107,9 @@ async def mylogo(_, query):
         API = "https://api.single-developers.software/write"
         body = {     
      "text":f"""
-Hello ! {text} Rose is one of the fastest and most feature filled group manager.
+Hello ! {text} Kutty Angel is one of the fastest and most feature filled group manager.
 
-Why Rose:
+Why Kutty Angel:
 - Simple: Easy usage and compaitble with many bot commands.
 - Featured: Many features which other group management bots don't have.
 - Fast: Pyrogram base bot and use mongo as database.
@@ -172,16 +172,16 @@ upun = """
 
 - 5000+ Fonts Available .
 - 10000+ Background Images.
-- Quick Response. [API Base](https://t.me/SingleDevelopers/618)
-- Never Expire Image Links. [Telegraph](https://telegra.ph/file/760c7393ee86fcba9e00e.jpg)
+- Quick Response. [API Base](https://t.me/DuskyBotZSupport)
+- Never Expire Image Links. [Telegraph](https://telegra.ph/file/4935b94ee534ac94319ad.jpg)
 - 4K Logo & Wallpapers.
 - Group / Channel & Inbox Supported.
-- Hand Writing [sinhala & English ](https://t.me/SingleDevelopers/643)
-- Ghostist Logo [API](https://telegra.ph/Ghostist-Logo-Maker-API-01-30)
+- Hand Writing [sinhala & English ](https://t.me/DuskyBotZSupport)
+- Ghostist Logo [API](https://telegra.ph/file/4935b94ee534ac94319ad.jpg)
 
-**Original work is done by **[@MrItzme](https://telegra.ph/Ghostist-Logo-Maker-API-01-30) | [Single Developers </>](https://t.me/SingleDevelopers)
+**Original work is done by **[@ONLY_DUSKY](https://telegra.ph/file/4935b94ee534ac94319ad.jpg) | [Dusky Support](https://t.me/DuskyBotZSupport)
 """
-photo = "https://telegra.ph/file/fce9d196e2ba4d6c2de3a.jpg"
+photo = "https://telegra.ph/file/4935b94ee534ac94319ad.jpg"
 
 @app.on_callback_query(filters.regex("_logo"))
 async def commands_callbacc(_, CallbackQuery):
